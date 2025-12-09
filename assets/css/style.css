@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+* {
+  font-family: "Quicksand";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 92px;
+  position: relative;
+}
+
+a.link-sm {
+  color: #728196;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+button.btn-primary {
+  background-color: #079011;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 300px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+button.btn-secondary {
+  background-color: transparent;
+  padding: 16px 40px;
+  border: 2px solid #232323;
+  border-radius: 300px;
+  color: #232323;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.nav-brand {
+  position: absolute;
+  transform: translateX(-90%);
+  left: 10%;
+}
+.nav-links {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section.hero {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.column-illustration-hero img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -99999;
+}
+img.il-hero {
+  top: 18%;
+}
+.column-text-heading {
+  width: 70%;
+  padding-top: 120px;
+}
+
+h1.hero-heading {
+  font-size: 90px;
+  color: #000000;
+}
+
+p.text-heading {
+  margin: 24px 0;
+  font-size: 25px;
+  color: #728196;
+  line-height: 38px;
+}
